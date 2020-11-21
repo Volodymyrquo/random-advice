@@ -23,6 +23,9 @@ export default class App extends Component {
       <div className='app'>
         <div className='card'>
           <h1 className='heading'>{advice}</h1>
+          <button className='button' onClick={this.fetchedAdvice}>
+            <span>give me advice!</span>
+          </button>
         </div>
       </div>
     );
